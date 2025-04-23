@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh ;
+}
+
+.tabuleiro{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quadrado{
+    width: 12.5%;
+    height: 12.5%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.branco{
+    background-color: antiquewhite;
+}
+
+.preto{
+    background-color: rgb(17, 100, 75);
+}
+
+.coordenada{
+    height: auto;
+    display: flex;
+    bottom: 4%;
+    left: 4%;
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.posicao{
+    top: 4%;
+    left: 4%;
+    right: auto;
+    font-size: 12px;
+}
+
+.textoBranco{
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.textoPreto{
+    color:  rgb(17, 100, 75);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
